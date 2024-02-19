@@ -7,3 +7,14 @@ function toggleMenu() {
 	menu.classList.toggle('open');
 	icon.classList.toggle('open');
 }
+
+// Function to scroll to top when arrow is clicked
+const btnScrollToTop = document.querySelector('#btnScrollToTop');
+
+btnScrollToTop.addEventListener('click', function () {
+	window.scrollTo({
+		top: 0,
+		left: 0,
+		behavior: 'smooth',
+	});
+});

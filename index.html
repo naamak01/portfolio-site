@@ -6,6 +6,10 @@
 		<title>My Portfolio</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="mediaqueries.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<!-- Main nav -->
@@ -81,6 +85,10 @@
 				</div>
 			</div>
 		</section>
+
+		<button id="btnScrollToTop">
+			<i class="material-icons">arrow_upward</i>
+		</button>
 
 		<section id="about">
 			<p class="section__text__p1">Get To Know More</p>
@@ -240,10 +248,12 @@
 							University of Nebraska-Lincoln <br />Website Clone
 						</h2>
 						<p class="project-description">
-							I build this website using HTML and CSS. It is static website
-							based on the design, images, information and desciption of UNL to
-							practice my skills. I do not own the right to any of their
-							information. For learning and Education purpose only.
+							I build this website using HTML, CSS and a little JavaScript for
+							scroll to top. It is static website based on the design, images,
+							information and desciption of UNL to practice my skills. I do not
+							own the right to any of their information. This is just for
+							learning and Education purpose only.I did add designs, images,
+							video and feautre I found maily on Unsplash.com and pexel.
 						</p>
 						<div class="btn-container">
 							<button
@@ -306,9 +316,51 @@
 				src="./assets/arrow.png"
 				alt="Arrow icon"
 				class="icon arrow"
-				onclick="location.href='./#projects'"
+				onclick="location.href='./#contact'"
 			/>
 		</section>
+
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img
+						src="./assets/email.png"
+						alt="email icon"
+						class="icon contact-icon email-icon"
+					/>
+					<p><a href="mailto:Example@gmail.com">Example@gmail.com</a></p>
+				</div>
+				<div class="contact-info-container">
+					<img
+						src="./assets/linkedin.png"
+						alt="LinkedIn icon"
+						class="icon contact-icon"
+					/>
+					<p>
+						<a href="https://www.linkedin.com/in/naamak01/" target="_blank"
+							>LinkedIn</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2024 Nana Amakye. All Rights Reserved.</p>
+		</footer>
+
 		<script src="script.js"></script>
 	</body>
 </html>
