@@ -335,3 +335,82 @@ section {
 	width: 400px;
 	border-radius: 2rem;
 }
+
+/* EXPERIENCE SECTION */
+
+#experience {
+	position: relative;
+}
+
+.experience-sub-title {
+	color: rgb(85, 85, 85);
+	font-weight: 600;
+	font-size: 1.75rem;
+	margin-bottom: 2rem;
+}
+
+.experience-details-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.article-container {
+	display: inline-flex;
+	text-align: initial;
+	flex-wrap: wrap;
+	flex-direction: row;
+	row-gap: 2rem;
+	justify-content: space-around;
+}
+
+article {
+	display: flex;
+	width: 10rem;
+	justify-content: space-around;
+}
+
+article .icon {
+	cursor: default;
+	width: 50px;
+	height: 50px;
+}
+
+.sql-paragraph {
+	font-size: 0.8rem;
+	margin-left: 10px;
+}
+
+/* PROJECTS */
+
+#projects {
+	position: relative;
+}
+
+.color-container {
+	border-color: rgb(163, 163, 163);
+	background-color: rgb(238, 238, 228);
+}
+
+.project-img {
+	border-radius: 2rem;
+	width: 650px;
+	height: 450px;
+}
+
+project-title {
+	margin: 1rem;
+	color: black;
+}
+
+.project-btn {
+	color: black;
+	border-color: rgb(163, 163, 163);
+}
+
+.project-description {
+	margin-bottom: 15px;
+	font-size: 14px;
+	max-width: 600px;
+	margin-left: 50px;
+}
