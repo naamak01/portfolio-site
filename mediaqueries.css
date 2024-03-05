@@ -237,7 +237,7 @@
 
 /* MEDIA QUERY WITH SCREEN WIDTH IS ABOUT 600PX WIDE */
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
 	#hamburger-nav {
 		display: flex;
 	}
