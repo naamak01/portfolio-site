@@ -252,7 +252,7 @@
 
 	#profile {
 		height: 60vh;
-		margin-bottom: 6rem;
+		margin-bottom: 4rem;
 		margin-top: 4rem;
 		margin-right: 3rem;
 		margin-left: 3rem;
@@ -262,8 +262,8 @@
 	}
 
 	.profile-pic {
-		height: 180px;
-		width: 180px;
+		height: 200px;
+		width: 200px;
 		margin-bottom: -3rem;
 	}
 
@@ -343,6 +343,10 @@
 
 	.details-container {
 		padding: 20px;
+	}
+
+	.profile-text {
+		margin-left: 0;
 	}
 
 	#experience {

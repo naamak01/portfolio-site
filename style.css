@@ -306,6 +306,11 @@ section {
 	gap: 1rem;
 }
 
+.linkedin-icon {
+	height: 33px;
+	width: 33px;
+}
+
 /* ABOUT SECTION */
 
 #about {
