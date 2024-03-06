@@ -280,8 +280,8 @@
 	}
 
 	.profile-pic {
-		height: 200px;
-		width: 200px;
+		height: 250px;
+		width: 250px;
 		margin-bottom: -3rem;
 	}
 
@@ -477,17 +477,25 @@
 
 /* FOR SCREEN SIZE 391PX AND BELOW */
 
-@media (max-width: 391px) {
+@media (max-width: 401px) {
 	#profile {
 		height: 60vh;
 		margin-top: 1rem;
 		margin-right: 0;
-		margin-left: 3rem;
+		margin-left: 0;
 	}
 
 	.btn-container {
-		margin-right: 2rem;
+		margin-right: 1rem;
 		margin-top: 1rem;
+	}
+
+	/* .icon {
+		margin-right: 1rem;
+	} */
+
+	.git-icon {
+		margin-right: 3rem;
 	}
 
 	.btn-1 {
@@ -507,20 +515,27 @@
 
 	#about {
 		margin-bottom: 23rem;
-		margin-left: 12.5rem;
+		margin-left: 10rem;
 	}
 
 	.about-p1,
 	.title-about {
-		width: 10rem;
+		width: fit-content;
+		max-width: 100%;
 	}
 
 	.about-details {
 		margin-top: 0;
 	}
 
+	.about-pic {
+		margin-bottom: 7rem;
+	}
+
 	#experience {
-		margin-left: 4rem;
+		margin-left: 2.5rem;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.experience-p1 {
@@ -540,4 +555,33 @@
 	/* .skills-container {
 		width: 160px;
 	} */
+
+	#contact {
+		padding-top: 0;
+		margin-top: 0;
+		margin-left: 3.8rem;
+	}
+
+	.contact-title,
+	.contact-p1 {
+		margin-left: 3rem;
+		width: 160px;
+	}
+
+	#btnScrollToTop {
+		display: none;
+	}
+
+	footer nav {
+		height: fit-content;
+		margin-bottom: 2rem;
+	}
+
+	footer {
+		height: 50vh;
+	}
+
+	.copyright {
+		margin-left: 1.6rem;
+	}
 }
