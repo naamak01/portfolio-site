@@ -413,6 +413,13 @@
 	.project-description {
 		margin-left: 0;
 	}
+	.project-2 {
+		order: 1;
+	}
+
+	.project-1 {
+		order: 2;
+	}
 
 	.logo {
 		font-size: 1.5rem;
@@ -562,6 +569,14 @@
 	.project-btn {
 		padding: 5px 5px;
 		margin-right: 0;
+	}
+
+	.project-2 {
+		order: 1;
+	}
+
+	.project-1 {
+		order: 2;
 	}
 
 	#contact {
