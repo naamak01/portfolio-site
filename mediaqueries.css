@@ -253,7 +253,7 @@
 	}
 }
 
-/* MEDIA QUERY WITH SCREEN WIDTH IS ABOUT 600PX WIDE */
+/* MEDIA QUERY WITH SCREEN WIDTH IS ABOUT 660PX WIDE */
 
 @media (max-width: 660px) {
 	#hamburger-nav {
@@ -475,7 +475,7 @@
 	}
 }
 
-/* FOR SCREEN SIZE 391PX AND BELOW */
+/* FOR SCREEN SIZE 450PX AND BELOW */
 
 @media (max-width: 450px) {
 	#profile {
@@ -489,10 +489,6 @@
 		margin-right: 1rem;
 		margin-top: 1rem;
 	}
-
-	/* .icon {
-		margin-right: 1rem;
-	} */
 
 	.git-icon {
 		margin-right: 3rem;
@@ -520,8 +516,7 @@
 
 	.about-p1,
 	.title-about {
-		width: fit-content;
-		max-width: 100%;
+		width: 130px;
 	}
 
 	.about-details {
@@ -544,22 +539,40 @@
 
 	.experience-p1,
 	#experience h1 {
-		margin-left: 5.7rem;
+		margin-left: 5.3rem;
 	}
 
-	/* .experience-details-container {
+	#projects {
+		height: fit-content;
+		margin-top: 0;
+	}
+
+	.project-container {
 		display: flex;
 		flex-direction: column;
-	} */
+	}
 
-	/* .skills-container {
-		width: 160px;
-	} */
+	.project-img {
+		width: 200px;
+		height: 160px;
+
+		object-fit: cover;
+	}
+
+	.experience-details-container {
+		align-items: center;
+	}
+
+	.project-btn {
+		padding: 5px 5px;
+		margin-right: 0;
+	}
 
 	#contact {
 		padding-top: 0;
 		margin-top: 0;
-		margin-left: 3.8rem;
+		margin-left: 4.2rem;
+		margin-bottom: 0;
 	}
 
 	.contact-title,
@@ -568,20 +581,25 @@
 		width: 160px;
 	}
 
+	.contact-info-upper-container {
+		margin-bottom: 0;
+	}
+
 	#btnScrollToTop {
 		display: none;
 	}
 
 	footer nav {
 		height: fit-content;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
+		margin-top: 0;
 	}
 
 	footer {
-		height: 50vh;
+		height: 46vh;
 	}
 
 	.copyright {
-		margin-left: 1.6rem;
+		margin-left: 1.3rem;
 	}
 }
