@@ -477,7 +477,7 @@
 
 /* FOR SCREEN SIZE 391PX AND BELOW */
 
-@media (max-width: 401px) {
+@media (max-width: 450px) {
 	#profile {
 		height: 60vh;
 		margin-top: 1rem;
