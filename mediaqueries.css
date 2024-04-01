@@ -1,6 +1,6 @@
 /* MEDIA QUERY WITH SCREEN WIDTH BETWEEN 1201 AND 1500PX WIDE */
 
-@media (min-width:1201px) and (max-width: 1500px) {
+@media (min-width: 1201px) and (max-width: 1500px) {
 	#profile {
 		height: 83vh;
 	}
