@@ -101,9 +101,11 @@
 		</button>
 
 		<section id="about">
-			<p class="section__text__p1 about-p1">Get To Know More</p>
-			<h1 class="title title-about">About Me</h1>
-			<div class="section-container about-section">
+			<p class="section__text__p1 about-p1 animating-container">
+				Get To Know More
+			</p>
+			<h1 class="title title-about animating-container">About Me</h1>
+			<div class="section-container about-section animating-container">
 				<div class="section__pic-container">
 					<img
 						src="./assets/climbing-pic.jpg"
@@ -151,18 +153,16 @@
 					</div>
 				</div>
 			</div>
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow about-arrow"
-				onclick="location.href='./#experience'"
-			/>
 		</section>
 
 		<section id="experience">
-			<p class="section__text__p1 experience-p1">Explore My</p>
-			<h1 class="title">Experience</h1>
-			<div class="experience-details-container experience-containers">
+			<p class="section__text__p1 experience-p1 animating-container">
+				Explore My
+			</p>
+			<h1 class="title animating-container">Experience</h1>
+			<div
+				class="experience-details-container experience-containers animating-container"
+			>
 				<div class="about-containers">
 					<div class="details-container skills-container">
 						<h2 class="experience-sub-title">Tech Stack</h2>
@@ -240,19 +240,12 @@
 					</div>
 				</div>
 			</div>
-
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow"
-				onclick="location.href='./#projects'"
-			/>
 		</section>
 
 		<section id="projects">
-			<p class="section__text__p1">My Recent</p>
-			<h1 class="title">Projects</h1>
-			<div class="experience-details-container">
+			<p class="section__text__p1 animating-container">My Recent</p>
+			<h1 class="title animating-container">Projects</h1>
+			<div class="project-details-container animating-container">
 				<div class="about-containers project-container">
 					<div class="details-container color-container project-1">
 						<div class="article-container">
@@ -330,12 +323,6 @@
 					</div>
 				</div>
 			</div>
-			<img
-				src="./assets/arrow.png"
-				alt="Arrow icon"
-				class="icon arrow about-arrow"
-				onclick="location.href='./#contact'"
-			/>
 		</section>
 
 		<section id="contact">
@@ -368,7 +355,7 @@
 		<footer>
 			<nav>
 				<div class="nav-links-container nav-links-container-bottom">
-					<ul class="nav-links">
+					<ul class="nav-links footer-nav-links">
 						<li><a href="#about">About</a></li>
 						<li><a href="#experience">Experience</a></li>
 						<li><a href="#projects">Projects</a></li>
@@ -382,5 +369,6 @@
 		</footer>
 
 		<script src="script.js"></script>
+		<script src="./main.js"></script>
 	</body>
 </html>
