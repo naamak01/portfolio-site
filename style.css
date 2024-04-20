@@ -37,7 +37,7 @@ nav,
 nav {
 	justify-content: space-around;
 	align-items: center;
-	height: 17vh;
+	height: 10vh;
 }
 
 .nav-links {
@@ -177,7 +177,7 @@ a:hover {
 
 section {
 	padding-top: 4vh;
-	height: 96vh;
+	height: 60vh;
 	margin: 0 10rem;
 	box-sizing: border-box;
 	min-height: fit-content;
@@ -193,7 +193,7 @@ section {
 	display: flex;
 	justify-content: center;
 	gap: 5rem;
-	height: 80vh;
+	height: 86vh;
 }
 
 .section__pic-container {
@@ -244,7 +244,7 @@ section {
 	text-align: center;
 }
 
-#socials-container {
+.socials-container {
 	display: flex;
 	justify-content: center;
 	margin-top: 1rem;
@@ -315,6 +315,11 @@ section {
 
 #about {
 	position: relative;
+	margin-bottom: 3rem;
+}
+
+.title-about {
+	margin-bottom: 4rem;
 }
 
 .about-containers {
@@ -337,12 +342,6 @@ section {
 	border-radius: 2rem;
 }
 
-.arrow {
-	position: absolute;
-	right: -5rem;
-	bottom: 2.5rem;
-}
-
 .details-container {
 	padding: 1.5rem;
 	flex: 1;
@@ -355,7 +354,7 @@ section {
 
 .section-container {
 	gap: 4rem;
-	height: 80%;
+	height: 50%;
 }
 
 .section__pic-container {
@@ -374,6 +373,7 @@ section {
 
 #experience {
 	position: relative;
+	height: 52vh;
 }
 
 .experience-sub-title {
@@ -420,6 +420,13 @@ article .icon {
 #projects {
 	position: relative;
 	height: fit-content;
+	margin-left: 15rem;
+	margin-right: 15rem;
+}
+
+.projects-details-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .color-container {
@@ -429,11 +436,12 @@ article .icon {
 
 .project-img {
 	border-radius: 2rem;
-	width: 650px;
-	height: 450px;
+	width: 550px;
+	height: 400px;
+	object-fit: contain;
 }
 
-project-title {
+.project-title {
 	margin: 1rem;
 	color: black;
 }
@@ -446,7 +454,7 @@ project-title {
 .project-description {
 	margin-bottom: 15px;
 	font-size: 14px;
-	max-width: 600px;
+	max-width: 550px;
 	margin-left: 50px;
 }
 
@@ -456,7 +464,7 @@ project-title {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 70vh;
+	height: 30vh;
 }
 
 .contact-info-upper-container {
@@ -493,10 +501,26 @@ project-title {
 /* FOOTER */
 
 footer {
-	height: 26vh;
+	height: 15vh;
 	margin: 0 1rem;
 }
 
 footer p {
 	text-align: center;
 }
+
+.footer-nav-links {
+	height: 5vh;
+}
+
+/* ANIMATION FOR FADE IN SCROLLER*/
+.animating-container {
+	position: relative;
+	opacity: 0;
+	transition: opacity 500ms ease-out 100ms;
+}
+
+.animating-container.appear {
+	opacity: 1;
+}
+/* END OF ANIMATION CSS FOR FADE IN SCROLL */
