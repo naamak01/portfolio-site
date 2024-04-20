@@ -545,7 +545,7 @@
 
 	#about {
 		margin: 0 auto;
-		height: 100vh;
+		height: 110vh;
 		width: 90%;
 		margin-bottom: 0;
 		margin-top: 0;
@@ -563,6 +563,7 @@
 		margin: 0 auto;
 		height: 65vh;
 		width: 95%;
+		margin-top: 5rem;
 	}
 
 	.experience-details-container {
