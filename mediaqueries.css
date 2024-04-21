@@ -630,3 +630,155 @@
 		margin-top: 9rem;
 	}
 }
+
+/* MEDIA QUERY TARGETING SCREEN WIDTH of 37PX*/
+
+@media (max-width: 395px) {
+	#hamburger-nav {
+		display: flex;
+	}
+
+	#desktop-nav {
+		display: none;
+	}
+
+	#profile {
+		height: 80vh;
+		margin-top: 1rem;
+		margin: 0 auto;
+		width: 90%;
+		margin-bottom: 3rem;
+	}
+
+	.main-profile-section p,
+	.main-profile-section h1 {
+		margin-right: 2.6rem;
+	}
+
+	.profile-pic {
+		width: 220px;
+		height: 220px;
+	}
+
+	.main-profile-section .section__text__p2,
+	.main-profile-section .section__text__p3 {
+		font-size: 1.1rem;
+		line-height: 1.3rem;
+	}
+
+	.btn-container {
+		margin-right: 1rem;
+		margin-top: 1rem;
+	}
+
+	.git-icon {
+		margin-right: 3rem;
+	}
+
+	.btn-1 {
+		margin-right: 1rem;
+	}
+
+	.about-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-details {
+		margin-top: 0;
+	}
+
+	#about {
+		margin: 0 auto;
+		height: 120vh;
+		width: 95%;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.about-p1 {
+		margin-bottom: 1.5rem;
+	}
+
+	.about-pic {
+		height: 180px;
+		width: 180px;
+		margin: 0 auto;
+		margin-top: 15rem;
+		margin-bottom: 7rem;
+	}
+
+	.title-about {
+		height: 15vh;
+	}
+
+	.about-text {
+		font-size: 1rem;
+		text-align: start;
+	}
+
+	#experience {
+		margin: 0 auto;
+		height: 65vh;
+		width: 95%;
+		margin-top: 8rem;
+	}
+
+	.experience-details-container {
+		margin: 0 auto;
+		width: 97%;
+	}
+
+	#projects {
+		height: fit-content;
+		margin-top: 12rem;
+	}
+
+	.project-img {
+		width: 200px;
+		height: 160px;
+
+		object-fit: cover;
+	}
+
+	.project-btn {
+		padding: 5px 5px;
+		margin-right: 0;
+	}
+
+	.project-2 {
+		order: 1;
+	}
+
+	.project-1 {
+		order: 2;
+	}
+
+	#contact {
+		padding-top: 0;
+		margin-top: 2rem;
+		margin: 0 auto;
+		width: 70%;
+		margin-bottom: 0;
+	}
+
+	#btnScrollToTop {
+		display: none;
+	}
+
+	footer nav {
+		height: fit-content;
+		margin-bottom: 1rem;
+		margin-top: 0;
+	}
+
+	footer {
+		height: 38vh;
+	}
+
+	.copyright {
+		margin-top: 9rem;
+	}
+}
