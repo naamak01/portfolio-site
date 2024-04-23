@@ -597,7 +597,7 @@
 		margin: 0 auto;
 		width: 90%;
 		gap: 6rem;
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 	}
 
 	.btn-container {
@@ -626,7 +626,7 @@
 
 	#about {
 		margin: 0 auto;
-		height: 160vh;
+		height: 150vh;
 		width: 90%;
 		margin-bottom: 0;
 		margin-top: 0;
@@ -645,7 +645,7 @@
 	}
 
 	.title-about {
-		height: 5vh;
+		height: 2vh;
 	}
 
 	.text-container p {
@@ -662,7 +662,7 @@
 		width: 80%;
 		height: 90vh;
 		margin-top: 1rem;
-		margin-bottom: 8rem;
+		margin-bottom: 5rem;
 	}
 
 	#projects {
@@ -695,8 +695,8 @@
 		margin: 0 auto;
 		width: 70%;
 		margin-bottom: 0;
-		margin-top: 2rem;
-		height: 50vh;
+		margin-top: 0;
+		height: 47vh;
 	}
 
 	#btnScrollToTop {
@@ -710,7 +710,7 @@
 	}
 
 	footer {
-		height: 40vh;
+		height: 35vh;
 	}
 
 	.copyright {
