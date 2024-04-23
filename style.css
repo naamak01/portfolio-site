@@ -160,6 +160,7 @@ a:hover {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
+	z-index: 1000;
 }
 
 /* Hover effect for the scroll to top button */
@@ -192,8 +193,9 @@ section {
 #profile {
 	display: flex;
 	justify-content: center;
-	gap: 5rem;
+	gap: 10rem;
 	height: 86vh;
+	align-items: center;
 }
 
 .section__pic-container {
@@ -244,18 +246,18 @@ section {
 	text-align: center;
 }
 
-.socials-container {
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-	gap: 1rem;
-}
-
 /* ICONS */
 
 .icon {
 	cursor: pointer;
 	height: 2rem;
+}
+
+.social-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
 }
 
 /* BUTTONS */
@@ -264,6 +266,7 @@ section {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 .btn {
@@ -311,11 +314,15 @@ section {
 	width: 33px;
 }
 
+.git-icon {
+	margin-right: 0.5rem;
+}
+
 /* ABOUT SECTION */
 
 #about {
 	position: relative;
-	margin-bottom: 3rem;
+	margin-bottom: 8rem;
 }
 
 .title-about {
@@ -342,6 +349,10 @@ section {
 	border-radius: 2rem;
 }
 
+.about-p1 {
+	margin-bottom: 2.5rem;
+}
+
 .details-container {
 	padding: 1.5rem;
 	flex: 1;
@@ -360,7 +371,6 @@ section {
 .section__pic-container {
 	height: 400px;
 	width: 400px;
-	margin: auto 0;
 }
 
 .about-pic {
@@ -373,7 +383,7 @@ section {
 
 #experience {
 	position: relative;
-	height: 52vh;
+	margin-top: 2rem;
 }
 
 .experience-sub-title {
@@ -420,13 +430,14 @@ article .icon {
 #projects {
 	position: relative;
 	height: fit-content;
-	margin-left: 15rem;
-	margin-right: 15rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 1rem;
 }
 
-.projects-details-container {
+.project-container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .color-container {
@@ -435,8 +446,7 @@ article .icon {
 }
 
 .project-img {
-	border-radius: 2rem;
-	width: 550px;
+	width: 440px;
 	height: 400px;
 	object-fit: contain;
 }
@@ -464,7 +474,7 @@ article .icon {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 30vh;
+	height: 35vh;
 }
 
 .contact-info-upper-container {
